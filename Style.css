@@ -1,0 +1,107 @@
+body{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    min-height: 100vh;
+
+   background: linear-gradient(
+        135deg,
+        #677eaf,
+        #7794c2,
+        #a0b3cd
+    );
+     color: white;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+
+      background: linear-gradient(
+        90deg,
+        #43250f,
+        #ee0979,
+        #d73986
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+h2{
+    font-size: 2.7rem;
+    font-weight: 600;
+     background: linear-gradient(
+        90deg,
+       #2d5566,
+       #1d5b6f,
+       #87b1c3
+     );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1.5px;
+
+
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+
+}
+
+.btn{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 8px solid rgba(255, 255, 255, 0.7);
+    margin: 1.5rem;
+    cursor: pointer;
+
+     transition:
+        transform 0.2s ease,
+        box-shadow 0.3s ease,
+        filter 0.3s ease;
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.3),
+        inset 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+     flex-wrap: wrap;
+    
+}
+
+
+.red{
+    background-color: #d95980;
+}
+
+.blue{
+    background-color: #63aac0;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.green{
+    background-color: #819ff9;
+}
+
+.game{
+    background-color: white;
+}
+
+.user{
+    background-color: green;
+}
